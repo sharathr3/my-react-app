@@ -12,9 +12,7 @@ export const ContactsPage = (props) => {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [duplicate, setDuplicate] = useState(false);
-  const [alert, setAlert] = useState('');
-
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
 
