@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+    background: darkgrey;
+}
+
+header {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+nav {
+  text-align: center;
+  background: #ccc;
+  padding-top: 15px;
+  border: 1px solid #979797;
+}
